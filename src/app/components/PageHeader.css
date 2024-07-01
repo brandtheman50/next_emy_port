@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding: 88px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    color: #FFFF;
+    text-align: center;
+    font-size: 32px;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #A8B7C6;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-content {
+    max-width: 1052px;
+}
+
+.dark-blue {
+    background: #0B1726;
+}
+
+.navy-blue-gradient {
+    background: linear-gradient(180deg, #111D40 0%, #111D40 43.99%, #0B1726 54.21%, #0B1726 100%);
+}
+
+.title {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.ui-title {
+    color: #038C8C;
+    font-size: 8rem;
+    font-weight: 800;
+}
+
+.designer-title {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--Accent-Teal, #038C8C);
+    color: #0B1726;
+    word-wrap: break-word;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.introduction-cont {
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+}
+
+.introduction h2, .introduction p {
+    color: #FFFF;
+}
+
+.introduction p {
+    margin-bottom: 40px;
+}
+
+.profile-img-cont {
+    width: 339px;
+    height: 264px;
+    flex-shrink: 0;
+    border-radius: 48px;
+}
+
+.profile-img-cont img {
+    border-radius: 48px;
+}
+
+.purple-btn {
+    padding: 8px 24px;
+    border-radius: 24px;
+    background: #7D4DE3;
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.photos-cont {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
