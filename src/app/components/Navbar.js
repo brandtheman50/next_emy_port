@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo-cont">
+      <a href="/" className="logo-cont">
         <div className="logo-svg">
           <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
             <g clipPath="url(#clip0_1_1361)">
@@ -29,7 +29,7 @@ const Navbar = () => {
             Emersyn<br/>Caulder
           </div>
         </div>
-      </div>
+      </a>
       <div className="nav-menu-cont">
         <ul className="nav-menu">
           <li className="nav-item"><Link href="/">Home</Link></li>
