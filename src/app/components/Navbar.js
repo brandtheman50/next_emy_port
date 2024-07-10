@@ -1,9 +1,17 @@
 // components/Navbar.js
+"use client";
 import React from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import './Navbar.css';
 
+
 const Navbar = () => {
+  const [menuIcon, setMenuIcon] = useState(false);
+
+  const activeMenu = () => {
+
+  }
   return (
     <nav>
       <a href="/" className="logo-cont">
@@ -26,11 +34,18 @@ const Navbar = () => {
         </div>
         <div className="logo-name">
           <div className="name">
-            Emersyn<br/>Caulder
+            Emersyn<br />Caulder
           </div>
         </div>
       </a>
       <div className="nav-menu-cont">
+        <div className='menu-icon' onClick={() => activeMenu(true)}>
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="4" width="36" height="2" fill="#038C8C" />
+            <rect y="11" width="36" height="2" fill="#038C8C" />
+            <rect y="18" width="36" height="2" fill="#038C8C" />
+          </svg></div>
+
         <ul className="nav-menu">
           <li className="nav-item"><Link href="/">Home</Link></li>
           <li className="nav-item"><Link href="/portfolio">Portfolio</Link></li>

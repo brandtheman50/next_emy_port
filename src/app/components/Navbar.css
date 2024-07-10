@@ -4,6 +4,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .logo-cont {
@@ -49,6 +52,10 @@ nav {
   align-items: center;
 }
 
+.nav-menu-cont svg {
+  display: none;
+}
+
 .nav-item a {
   color: #7D4DE3;
   font-size: 16px;
@@ -63,7 +70,16 @@ nav {
   background: #7D4DE3;
 }
 
-@media (max-width: 870px) {
-  
+@media (max-width: 830px) {
+  nav {
+    padding: 16px 31px;
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu-cont svg {
+    display: block;
+  }
 }
   

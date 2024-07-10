@@ -54,7 +54,7 @@
 
 .designer-title {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--Accent-Teal, #038C8C);
+    -webkit-text-stroke-color: #038C8C;
     color: #0B1726;
     word-wrap: break-word;
     font-size: 128px;
@@ -68,7 +68,6 @@
     justify-content: center;
     gap: 88px;
 }
-
 
 .introduction h2,
 .introduction p {

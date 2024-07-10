@@ -196,20 +196,20 @@ export default function Home() {
             </div>
             <div className="software-cont adobe-illustrator">
               <svg xmlns="http://www.w3.org/2000/svg" width="62" height="56" viewBox="0 0 62 56" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6501 1.84363L30.9976 0L48.3463 1.84363L61.7775 19.9684L30.9988 55.9999L0.220116 19.9684L13.6501 1.84363Z" fill="#FDB300" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6875 20.1865L30.9988 56L0.220116 20.1865H12.6875Z" fill="#EA6C00" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M49.3137 20.1865L31.0012 56L61.7799 20.1865H49.3137Z" fill="#EA6C00" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4082 20.1865H48.958L30.6831 56L12.4082 20.1865Z" fill="#FDAD00" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3626 0L13.3527 1.86334L12.4082 20.1864L30.3626 0Z" fill="#FDD231" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.994 0L48.004 1.86334L48.9484 20.1864L30.994 0Z" fill="#FDD231" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M61.7799 20.1867L48.3134 1.95361L49.2798 20.1867H61.7799Z" fill="#FDAD00" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.220116 20.1867L13.6853 1.95361L12.719 20.1867H0.220116Z" fill="#FDAD00" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6831 0L12.4082 20.1864H48.958L30.6831 0Z" fill="#FEEEB7" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M13.6501 1.84363L30.9976 0L48.3463 1.84363L61.7775 19.9684L30.9988 55.9999L0.220116 19.9684L13.6501 1.84363Z" fill="#FDB300" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M12.6875 20.1865L30.9988 56L0.220116 20.1865H12.6875Z" fill="#EA6C00" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M49.3137 20.1865L31.0012 56L61.7799 20.1865H49.3137Z" fill="#EA6C00" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M12.4082 20.1865H48.958L30.6831 56L12.4082 20.1865Z" fill="#FDAD00" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M30.3626 0L13.3527 1.86334L12.4082 20.1864L30.3626 0Z" fill="#FDD231" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M30.994 0L48.004 1.86334L48.9484 20.1864L30.994 0Z" fill="#FDD231" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M61.7799 20.1867L48.3134 1.95361L49.2798 20.1867H61.7799Z" fill="#FDAD00" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M0.220116 20.1867L13.6853 1.95361L12.719 20.1867H0.220116Z" fill="#FDAD00" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M30.6831 0L12.4082 20.1864H48.958L30.6831 0Z" fill="#FEEEB7" />
               </svg>
             </div>
             <div className="software-cont w-logo">
               <svg xmlns="http://www.w3.org/2000/svg" width="72" height="44" viewBox="0 0 72 44" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M72 0L49.0256 44H27.4462L37.061 25.7645H36.6297C28.6976 35.8522 16.8628 42.493 0 44V26.017C0 26.017 10.7875 25.3927 17.1292 18.8607H0V0.00034756H19.2514V15.5127L19.6835 15.511L27.5503 0.00034756H42.1096V15.4144L42.5417 15.4137L50.7036 0H72Z" fill="#146EF5" />
+                <path fill-rule="evenodd" clipRule="evenodd" d="M72 0L49.0256 44H27.4462L37.061 25.7645H36.6297C28.6976 35.8522 16.8628 42.493 0 44V26.017C0 26.017 10.7875 25.3927 17.1292 18.8607H0V0.00034756H19.2514V15.5127L19.6835 15.511L27.5503 0.00034756H42.1096V15.4144L42.5417 15.4137L50.7036 0H72Z" fill="#146EF5" />
               </svg>
             </div>
             <div className="software-cont wordpress">
